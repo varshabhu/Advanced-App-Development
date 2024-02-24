@@ -1,0 +1,76 @@
+.abcd{
+    margin-left:250px; 
+    margin-top:30px;
+   font-size:20px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.an{
+    margin-left:450px;
+   margin-top:20px;
+    font-size: 25px;
+}
+.dot{
+    margin-left:200px;
+    
+}
+.jip{
+    margin-left:250px;
+    margin-top:80px;
+ 
+}
+.nite{
+    background-image:url("https://res.cloudinary.com/dv3xtovhk/image/upload/v1708620079/kuhnb_swh47j.jpg");
+    background-size: cover;
+    margin-top:-200px;
+    width:1535px;
+    height:160vh;
+
+}
+.kite{
+    margin-top:200px;
+    margin-left: 330px;
+}
+.gal{
+    margin-left:200px;
+    width:10px;
+}
+.asd{
+    margin-top:90px;
+    margin-left:700px;
+    font-size: 50px;
+    color:blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.poll {
+    margin-left:290px;
+    margin-top: 130px;
+}
+.tall {
+    margin-left:550px;
+    margin-top: -95px;
+}
+.note {
+    margin-left:850px;
+    margin-top: -105px;
+}
+.move {
+    margin-left:1150px;
+    margin-top: -100px;
+}
+.loop{
+    margin-left:300px;
+    margin-top:90px;
+}
+.one{
+    margin-top: -260px;
+    margin-left: 700px;
+    width:600px;
+}
+.two{
+    margin-left: 700px;
+    width:600px;
+}
+.three{
+    margin-left: 700px;
+    width:600px;
+}

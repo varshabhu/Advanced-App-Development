@@ -1,0 +1,38 @@
+.manage-course-container {
+    max-width: 800px;
+    margin-top:200px;
+    margin-left:300px;
+  }
+  .manage-course-container h2{
+      margin-left:350px;
+      font-family:fantasy;
+      color:black;
+  }
+  
+  .course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .course-table th, .course-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .course-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .course-table td button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .course-table td button:hover {
+    background-color: #d32f2f;
+  }
+  
