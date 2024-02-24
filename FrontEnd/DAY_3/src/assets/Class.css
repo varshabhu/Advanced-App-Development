@@ -1,0 +1,149 @@
+.it{
+    transform:translateX(50px);
+  }
+
+  .delta
+  {
+    transform:translateX(-600px);
+  }
+  .delta button[type='submit']{
+    width: 10%;
+    margin-top:30px;
+    transform:translateX(70px);
+    padding: 10px;
+    border: 1px solid blue;
+    border-Radius: 25px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .tstyle
+  {
+    font-size:30px;
+    font-style:oblique;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  .cont
+  {
+    
+        margin-top:-300px;
+        width:850px;
+        padding:20px;
+        border: 2px solid rgb(238, 230, 230);
+        background-color: rgb(246, 241, 240);
+        border-radius:25px;
+        margin-left:500px;
+      
+  }
+  .set{
+    margin-top:100px;
+        
+        padding:20px;
+        border: 2px solid rgb(30, 28, 28);
+        background-color: rgb(234, 221, 220);
+        border-radius:25px;
+        height:250px;
+
+  }
+  .hh
+  {
+    transform:translateY(75px);
+  }
+  .cat{
+    transform:translateY(50px);
+     margin-left:75px;
+  }
+
+
+  .doll {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    margin-left:-300px;
+    margin-top:20px;
+    width:160vh;
+    height:40vh;
+    margin-left:300px;
+  }
+  
+  .video-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .slider-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .video-container {
+    position: relative;
+    margin-left:-100px;
+    margin-top:50px;
+    /* width: 100%;
+    height:50%; */
+    display:flex;
+    
+    
+  }
+  .video-container  iframe{
+    padding-left:10px;
+    
+  }
+  
+  .video-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+   
+
+
+  .video-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .dot1 {
+    position: relative;
+    width: 100%;
+
+    margin-top:60px;
+    width:180vh;
+    height:40vh;
+    margin-left:250px;
+    padding:-10px;
+   
+  } 
+  .dot2 {
+    position: relative;
+    width: 100%;
+   
+    margin-top:150px;
+    width:180vh;
+    height:40vh;
+    margin-left:250px;
+    padding:-10px;
+   
+  } 
+  .dot3{
+    position: relative;
+    width: 100%;
+   
+    margin-top:110px;
+    width:180vh;
+    height:40vh;
+    margin-left:250px;
+    padding:-10px;
+  }
+  

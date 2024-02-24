@@ -1,0 +1,20 @@
+/* HomeAdmin.css */
+
+.admin-home-page {
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://res.cloudinary.com/dv3xtovhk/image/upload/v1708757108/hkvmn_jkbacs.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 96vh; /* Ensures the background covers the entire viewport */
+}
+
+.admin-home-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.admin-home-page p {
+    font-size: 1.2em;
+    color: #333;
+}
