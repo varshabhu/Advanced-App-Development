@@ -1,0 +1,90 @@
+/* Course.css */
+
+.course-container {
+  margin-left: 300px;
+}
+
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course-card {
+  flex: 0 0 calc(30.33% - 30px); /* Change width calculation to allow proper spacing */
+  height: auto;
+  perspective: 1000px;
+  margin-bottom: 300px;
+  position: relative;
+}
+
+.course-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.course-card.flipped .course-inner {
+  transform: rotateY(180deg);
+}
+
+.course-front,
+.course-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.course-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+
+}
+
+.course-details {
+  text-align: center;
+}
+
+.course-description {
+  margin-top: 10px;
+}
+
+.course-heading {
+  text-align: center;
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.enroll-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

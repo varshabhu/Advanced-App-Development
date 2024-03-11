@@ -1,0 +1,125 @@
+.login-box {
+  position: absolute;
+   top: 40%;
+  left: 75%;
+  height:60%;
+  width: 450px;
+  padding: 40px; 
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.dell {
+  /* margin: 0;
+  padding: 0; */
+  font-family: sans-serif;
+  background-image: linear-gradient(rgba(169, 195, 219, 0.8), rgba(137, 191, 202, 0.8)), url('https://res.cloudinary.com/dv3xtovhk/image/upload/v1708446253/ch1_meiufu.webp');
+  background-size: cover;
+  width:1535px;
+  height:100vh;
+
+  background-attachment: fixed; /* Add this line */
+}
+.logo{
+  margin-top:70px;
+  width:600px;
+  height:600px;
+  margin-left: 10%;
+
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background:transparent;
+}
+.login-box .user-box select {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #e6d9d9;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background:transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box select:focus ~ label,
+.login-box .user-box input:valid ~ label,
+.login-box .user-box select:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form button {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #03e9f4;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-box form button:hover {
+  background-color: #02c8f4;
+}
+
+.login-box form .error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Style select dropdown arrow */
+.login-box select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  padding-right: 30px;
+}
+.jet{
+  color:rgb(57, 126, 224);
+}

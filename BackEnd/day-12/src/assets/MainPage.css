@@ -1,0 +1,33 @@
+/* HomeAdmin.css */
+
+.main-home-page {
+    padding: 20px;
+    text-align: center;
+    background-image: url('https://res.cloudinary.com/dv3xtovhk/image/upload/v1708757108/hkvmn_jkbacs.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+}
+.main-home-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.main-home-page p {
+    font-size: 1.2em;
+    color: #333;
+}
+.tar{
+    margin-left: -500px;
+    margin-top: 100px;
+}
+.tar2{
+    margin-left:300px;
+   margin-top:-270px;
+}
+
+.header1{
+    margin-top:50px;
+    margin-left:-40px;
+    font-family: fantasy;
+    color:black
+}
